@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<div>
+<br>
+<br>
+<head><center><b>AUTO STORE ONLINE </b></center>                                          
+<style>
+div {
+  background-color: #f1f1f1;
+}
+.topnav-right {
+  float: right;
+}
+</style>
+
+</head>
+<p><b> Inventory Details <b> </p>
+<br>
+<br>
+<br>
+<body>
+<div>
+<ul>
+  <li><a href="home.html">Home</a></li>
+  
+</ul>
+<form>
+<input type="submit" value="Add Category" >  &nbsp  <input type="submit" value="Add Product" > <br> <br>
+
+<button onclick="myFunction()">CategoryDetails</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("Press a button!")) {
+    txt = "No Inventory Details";
+  } else {
+    txt = "No Inventory";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+<br> 
+<a href="#search">Log Out</a>
+</body>                                                                                                                                                                                                        
+
+</div>
+</html>
